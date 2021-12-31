@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #eee;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #b3f3e7;
+    margin: 0% auto;
+    padding: 20px;
+}
+.container2{
+    width:300px;
+    height: 100vh;
+    background-color: #103f36;
+    float: left;
+    
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border-radius: 50px;
+    float: left;
+}
+.header-bio{
+    padding: 30px;
+    float: left;
+}
+h1,h2,h3,h4,h5{
+    color: #103f36;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+text-decoration: none;
+color: teal;
+font-weight: bold;
+}
+.header-contact a:hover{
+text-decoration: underline;
+cursor: pointer;
+color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* <!-- header end --> */
+
+/* main start */
+
+
+.content{
+margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* edu-template-right part start */
+
+.edu-template-right{
+width: 45%;
+float: left;
+}
+.edu-template-left{
+width: 45%;
+float: right;
+}
+.buttom-container{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+.buttom-container a{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.buttom-container p{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+   
+    
+}
